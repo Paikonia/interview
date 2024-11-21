@@ -1,3 +1,5 @@
+import AuthMiddleware from "./middleware.auth"
 
+const Auth = new AuthMiddleware()
 
-export default {}
+export default {Auth}
